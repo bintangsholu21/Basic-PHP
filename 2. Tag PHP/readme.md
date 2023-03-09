@@ -1,0 +1,39 @@
+# TAG PHP
+#### Tag PHP dapat ditulis langsung ataupun didalam markup HTML 
+
+```
+<?php
+    //kode php
+?>
+```
+#### contoh : menampilkan kalimat 'saya suka semangka'
+
+```
+    <?php
+        echo'Saya Suka Semangka';
+    ?>
+```
+#### atau
+```
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tag HTML</title>
+</head>
+<body>
+    <?php
+        echo 'Saya Suka Semangka';
+    ?>
+</body>
+</html>
+
+```
+#### Maka akan tampil tampilan seperti ini.
+output :<br>
+<img src="echo.png" alt="img" style="zoom:50%;" />
+
+
